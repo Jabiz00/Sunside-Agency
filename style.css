@@ -1,0 +1,234 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 78rem;
+  overflow: scroll;
+  position: relative;
+}
+.Container {
+  height: auto;
+  width: 78rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px dashed black;
+  overflow: hidden;
+  font-family: [Barlow](https://fonts.google.com/specimen/Barlow);
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+  position: absolute;
+  z-index: 1;
+}
+.left-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-right: 20rem;
+}
+.right-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 3rem;
+  color: white;
+}
+.Contact {
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  width: 5rem;
+  height: 2rem;
+  color: black;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+.Contact:hover {
+  background-color: #3ebfff;
+  color: white;
+}
+#orange {
+  height: 90vh;
+  width: 80rem;
+}
+.creative {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 110px;
+  gap: 3rem;
+  color: white;
+}
+#arrow {
+  height: 4rem;
+}
+.line2 {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 30rem;
+  width: 80rem;
+}
+.Transform {
+  font-size: 1.1rem;
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  width: 23rem;
+  margin-left: 80px;
+}
+#egg {
+  height: 30rem;
+  width: 40rem;
+}
+.line3 {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 30rem;
+  width: 80rem;
+}
+#cup {
+  height: 30rem;
+  width: 40rem;
+}
+.Stand {
+  font-size: 1.1rem;
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 23rem;
+  margin-right: 120px;
+}
+.line4 {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 30rem;
+  width: 80rem;
+}
+.left4 {
+  /* font-size: 1.1rem; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 30rem;
+}
+#tomato {
+  position: relative;
+  height: 30rem;
+  width: 40rem;
+  z-index: -1;
+}
+.Great {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 12rem;
+  width: 20rem;
+}
+.right4 {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: 40rem;
+}
+#tangerine {
+  height: 30rem;
+  width: 40rem;
+  position: relative;
+  z-index: -1;
+}
+.Photography {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16.5rem;
+  width: 20rem;
+}
+.Testimonials {
+  height: 30rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 50px;
+}
+.clients {
+  width: 80rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 7.5rem;
+}
+.img-client {
+  border-radius: 20rem;
+  margin-bottom: 1rem;
+}
+.Testimonies {
+  width: 17rem;
+}
+.gallery {
+  height: 25rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img-gallery {
+  height: 25rem;
+  width: 20rem;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  width: 80rem;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: hsl(167, 34%, 41%);
+}
+.About {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
